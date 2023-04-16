@@ -1,6 +1,6 @@
 # **CSS DOCUMENTATION** (_Cascading Style Sheet_).
 
-## **Introduction**  
+## **01 Introduction**  
 
 CSS is used to style the web pages created by html.
 
@@ -63,7 +63,7 @@ You can use important flag to make any selector property value as highest priori
 **COMMNENTS**  
 In CSS comments can be written inside `` /* here */ ``. 
 
-## **Colors**
+## **02 Colors**
 In CSS colors can be represented using
 > 1. Color Names- ``red, yellow, blue, aqua, gold ...``  
 
@@ -80,3 +80,7 @@ h1{
     background-color: rgb(144,33,234);
     border-color: violet;
 }
+```
+
+## **03 Background**
+In CSS various background properties are used to effect the background of the element.
