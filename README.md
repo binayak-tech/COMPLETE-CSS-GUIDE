@@ -1,6 +1,7 @@
 # **CSS DOCUMENTATION** (_Cascading Style Sheet_).
 
-## **01 Introduction**  
+## **CHAPTER 1** 
+### **Introduction**  
 
 CSS is used to style the web pages created by html.
 
@@ -25,15 +26,15 @@ There are three ways to attach css in a html file.
 ```
 HTML and CSS use a top down approach to parse the code so whichever styles are parsed last will be applied in case you applied multiple styles to the same tag.
 
-### ANATOMY OF CSS
+**ANATOMY OF CSS**
 Syntax = `` selector{ property: value; } ``  
 Selectors are simply used to select a particular element and apply any styles over it.  
 Different Selectors are -
-> - class selector ``.class_name{}``  
-> - id selector ``#id_name{}``  
-> - element selector ``element{}``
-> - group selector  ``element1,element2{}`` 
-> - universal selector  ``*{}`` 
+- class selector ``.class_name{}``  
+- id selector ``#id_name{}``  
+- element selector ``element{}``
+- group selector  ``element1,element2{}`` 
+- universal selector  ``*{}`` 
 
 It can also be a combination of multiple selectors ``p.class_name{}`` in this case the selector will select all the p elements with a specific class name.  
 To select a nested element ``p span{ background-color: gold; }``  
@@ -63,7 +64,7 @@ You can use important flag to make any selector property value as highest priori
 **COMMNENTS**  
 In CSS comments can be written inside `` /* here */ ``. 
 
-## **02 Colors**
+### **Colors**
 In CSS colors can be represented using
 > 1. Color Names- ``red, yellow, blue, aqua, gold ...``  
 
@@ -82,5 +83,21 @@ h1{
 }
 ```
 
-## **03 Background**
-In CSS various background properties are used to effect the background of the element.
+### **Background**
+In CSS various background properties are used to effect the background of the element. It has various properties but in this section we will discuss about the following properties.  
+
+- [**background-image:**](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+- [**background-repeat:**](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
+- [**background-position:**](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+- [**background-color:**](https://developer.mozilla.org/en-US/docs/Web/CSS/background-color)
+- [**background-attachment:**](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment)
+- [**background:**](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+- [**background-clip:**](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip)
+
+These properties can be assigned with different values to style the selectors.
+
+
+
+
+
+
