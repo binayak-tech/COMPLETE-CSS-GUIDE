@@ -97,7 +97,11 @@ In CSS various background properties are used to effect the background of the el
  
 
 ### **Border**
-The border property allows us to specify the color, width and style of a element's border
+The border property allows us to specify the color, width and style of a element's border.  
+
+<u>**border-style**</u>  
+The border-style propety styles to border, example- ``border-style: dotted;``
+
 
 
 
