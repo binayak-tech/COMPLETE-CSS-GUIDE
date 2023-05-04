@@ -94,8 +94,10 @@ In CSS various background properties are used to effect the background of the el
 - [**background:**](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
 - [**background-clip:**](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip)
 
-These properties can be assigned with different values to style the selectors.
+ 
 
+### **Border**
+The border property allows us to specify the color, width and style of a element's border
 
 
 

@@ -10,23 +10,31 @@
 
     <!-- INTERNAL CSS -->
     <style>
-        p.first{
-            color: limegreen;
+        .first-chapter{
+            font-size: 2rem;
+            text-decoration: underline;
+        }
+        .f1{
+            border: 1px solid black;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
     <!-- INLINE CSS -> "STYLE= 'COLOR: BLUE;'" -->
-    <h1 class="first" style="font-family: 'Times New Roman', Times, serif ;">I am Binayak Purohit</h1>
-    <p>Hello</p>
+    <h1 class="first" style="font-family: 'Times New Roman', Times, serif;">I am Binayak Purohit</h1>
+    <div class="f1">
+        <p class="first-chapter"> uses of colors </p>
 
-    <h2 class="type01">methods to change color of text.</h2>
-    <p>
-        Lorem ipsum dolor sit amet <span class="type02">Color of this Text is changed using HEX value </span> consectetur adipisicing. <br> 
-        Eum quae amet <em class="type03">This emphasized text color is set using rgb or rgba values </em> expedita non! Dolorem quo. <br> 
-        Sunt illo nam ab, odio totam, eaque iste blanditiis <strong class="type04"> This bold text color is set using hsl | hsla values </strong> eveniet. 
-    </p>
+        <h2 class="type01">methods to change color of text.</h2>
+        <p>
+            <span class="type02">Color of this Text is changed using HEX value. </span> <br> 
+            <em class="type03">This emphasized text color is set using rgb or rgba values. </em><br> 
+            <strong class="type04"> This bold text color is set using hsl | hsla values. </strong> 
+        </p>
+    </div>
+    
 
 </body>
 </html>
