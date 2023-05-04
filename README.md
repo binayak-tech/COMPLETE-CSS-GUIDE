@@ -97,8 +97,33 @@ In CSS various background properties are used to effect the background of the el
  
 
 ### **Border**
-The border property allows us to specify the color, width and style of a element's border
+The border property allows us to specify the color, width and style of a element's border.  
+  
+1. <u>**border-width**</u>  
+The border-width property tells how thick the border can be. border-widht: top right down left;  
+example - ``border-width: 25px 10px 4px 35px;``  
 
+2. <u>**border-style**</u>  
+The border-style propety styles to border, example- ``border-style: dotted;``  
+Various other values are - ``dashed, solid, double, groove, ridge, inset, outset, none, hidden``...  
+
+3. <u>**border-color**</u>  
+The border-color property is used to set color to the border.  
+Example - ``border-color: limegreen;``
+
+4. <u>**border-radious**</u>  
+The border-radious property is used to give a rounded corners to the borders, and it also can completely change the shape of the border.  
+Example - ``border-radious: 15px;``..
+
+5. <u>**sides**</u>  
+Indivisual sides of the border can be accessed to style them differently.  
+Example - ``border-top-width: 2px;  ``
+``border-bottom-style: dotted;  border-left-color: purple;  border-right-radious: 3px;``
+
+5. <u>**shorthand**</u>  
+The border shorthand property can be used to make it easy. border: width style color;
+Example - ``border: 2px solid black;``  
+``border-top: 5px dotted red;``
 
 
 

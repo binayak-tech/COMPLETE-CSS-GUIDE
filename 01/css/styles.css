@@ -37,3 +37,14 @@ input, select, button, textarea{
     /* changing background color using hsl | hsla (hue saturation lightness alpha) */
     background-color: hsla(280,57%,37%,0.7);
 }
+
+.border-styling{
+    margin: auto;
+    margin-top: 50px;
+    width: 30%;
+    border: 2px;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+    font-size: 2rem;
+}
